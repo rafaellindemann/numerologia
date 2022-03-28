@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="date" id="inpData"> <button onclick="trata()">Entrar</button>
+    <div id="divResultado"></div>
+    <script src="Data.js"></script>
+    <script>
+
+        function lerData()
+        {
+            let lido = document.getElementById('inpData').value
+            let dia = Number(lido[8] + lido[9])
+            let mes = Number(lido[5] + lido[6])
+            let ano = Number(lido[0] + lido[1] + lido[2] + lido[3])
+            return new Data(dia, mes, ano)
+        }
+
+        function somaString(texto)
+        {
+            let valor = Number(texto)
+            while(valor > 9)
+            {
+                texto = valor.toString()
+                valor = 0
+                for(i=0; i<texto.length; i++)
+                {
+                    valor += Number(texto[i])
+                }
+            }
+
+            return valor
+        }
+
+        
+
+        function trata()
+        {
+            let data = lerData()
+            console.log(data)
+
+            // let diaNascimento
+            // let mesNascimento
+            // let anoUniversal                // este ano, se já fez aniversário
+            // let anoPessoal                  // dia + mes + anoUniversal
+
+            // let hoje = new Date()
+            // // hoje = document.getElementById('inpData').value
+            // hoje.setDate(9)
+            // console.log(hoje.getDate())
+            // console.log(hoje.getMonth())
+            // console.log(hoje.getFullYear())
+
+
+            // console.log(temp)
+            // console.log(typeof(temp))
+
+            // let soma = 0
+            // for(i=0; i<temp.length; i++)
+            // {
+            //     console.log(temp[i])
+            //     if(temp[i] != '-') soma += Number(temp[i])
+            // }
+            // console.log('Soma1: ' + soma)
+            // while(soma > 9)
+            // {
+            //     temp = soma + ''
+            //     soma = 0
+            //     for(i=0; i<temp.length; i++)
+            //     {
+            //         soma += Number(temp[i])
+            //     }
+            // }
+            
+            // console.log('Soma2: ' + soma)
+
+            // document.getElementById('divResultado').innerHTML = `Número mágico: ${soma}`
+        }
+    </script>
+</body>
+</html>
