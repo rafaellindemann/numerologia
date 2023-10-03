@@ -1,0 +1,43 @@
+body{
+    background-color: #87629c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #43125e;
+}
+
+input{
+    border: solid 1px #43125e;
+    border-radius: 5px;
+    background-color: rgb(250, 212, 250);
+    margin: 10px,10px,10px,10px;
+}
+button{
+    border: solid 1px #43125e;
+    border-radius: 5px;
+    /* background-color: rgb(136, 48, 158); */
+    background-color: rgb(140, 50, 160);
+}
+
+#divPainel{
+    /* border: solid 1px #43125e; */
+    /* width: 300px; */
+    /* margin: 10px 10px 10px 10px ; */
+    margin: 0 auto;
+    width: 50%; /* Valor da Largura */
+}
+#divRecadinho{
+    /* border: solid 1px #43125e; */
+    /* width: 300px; */
+    /* margin: 10px 10px 10px 10px ; */
+    margin: 0 auto;
+    width: 70%; 
+}
+#divConteiner{
+    /* border: solid 1px #43125e; */
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+}
+
+div{
+    margin-top: 10px;
+    padding: 10px;
+}

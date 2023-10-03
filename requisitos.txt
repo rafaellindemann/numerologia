@@ -1,0 +1,20 @@
+
+
+
+Entradas:
+- Data de nascimento
+
+
+Saídas:
+- Ano pessoal
+    soma dos dígitos do dia + mês + ano macro (usar valor do ano macro pra quem já fez aníversário no ano, pra quem não fez usa ano macro - 1)
+
+
+- Explicar para o usuário o ano macro x ano macro -1
+
+
+
+Ano macro: soma dos dígitos do ano atual
+
+
+validar entrada
