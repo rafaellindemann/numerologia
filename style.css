@@ -48,6 +48,9 @@ button{
     justify-content: flex-start;
     align-items: center;
 }
+img{
+    border-radius: 10px;
+}
 #divConteiner{
     /* border: solid 1px #43125e; */
     /* justify-content: center; */
