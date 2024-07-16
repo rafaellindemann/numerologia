@@ -2,6 +2,18 @@
     border: 1px solid red;
 } */
 
+header{
+    color: #43125e;
+    /* color: #fff; */
+    padding: 10px;
+    width: 100%;
+   display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
 body{
     background-color: #87629c;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,12 +29,19 @@ input{
     border-radius: 5px;
     background-color: rgb(250, 212, 250);
     margin: 10px,10px,10px,10px;
+    padding: 5px;
+    font-size: xx-large;
 }
 button{
     border: solid 1px #43125e;
     border-radius: 5px;
     /* background-color: rgb(136, 48, 158); */
     background-color: rgb(140, 50, 160);
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(160, 70, 180);
 }
 
 #divPainel{
@@ -30,7 +49,7 @@ button{
     /* width: 300px; */
     /* margin: 10px 10px 10px 10px ; */
     margin: 0 auto;
-    width: 50%; /* Valor da Largura */
+    width: 80%; /* Valor da Largura */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -51,13 +70,14 @@ button{
 img{
     border-radius: 10px;
 }
-#divConteiner{
-    /* border: solid 1px #43125e; */
-    /* justify-content: center; */
-    /* margin: 0 auto; */
-}
+
 
 div{
     margin-top: 10px;
     padding: 10px;
+}
+
+#divResultado{
+    width: 100%;
+    text-align: center;
 }

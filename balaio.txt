@@ -1,0 +1,18 @@
+
+entrada: 
+    data nascimento casal
+    dd/mm/aaaa
+    dd/mm/aaaa
+
+Saída:
+    Texto combinado 1..9 x 1..9
+
+
+Mês pessoal:
+
+    se já fez aniversário: 
+        mm + ano atual
+    senao
+        mm + ano anterior
+
+
